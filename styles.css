@@ -1,0 +1,54 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .form-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-section h3 {
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+        .form-group.flex {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .form-group.flex .form-group-inner {
+            flex: 1;
+        }
+        .form-group.flex .form-group-inner input, 
+        .form-group.flex .form-group-inner select {
+            width: 100%;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
+        }
+    </style>
